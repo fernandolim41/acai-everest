@@ -179,8 +179,8 @@ function MainComponent() {
       <main className="pt-16">
         <section className="relative h-[500px]">
           <img
-            src="/acai-wholesale.jpg"
-          
+            src=""
+            alt=""
             className={`w-full h-full object-cover transition-transform duration-700 ${
               scrollY > 0 ? "scale-105" : "scale-100"
             }`}
