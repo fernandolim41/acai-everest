@@ -80,19 +80,19 @@ function MainComponent() {
       name: "Açaí 10L",
       price: "R$ 79,99",
       description: "Promoção de Lançamento",
-      image: "/acai-10l.jpg",
+      image: "IMAGE src/suco acai.jpg",
     },
     {
       name: "Açaí Premium",
       price: "Sob consulta",
       description: "Para revenda",
-      image: "/acai-premium.jpg",
+      image: "IMAGE src/sobremesa saudavel 2.jpg",
     },
     {
       name: "Mix de Frutas",
       price: "Sob consulta",
       description: "Complementos",
-      image: "/mix-frutas.jpg",
+      image: "IMAGE src/acai com frutas 2.jpg",
     },
   ];
 
@@ -179,7 +179,7 @@ function MainComponent() {
       <main className="pt-16">
         <section className="relative h-[500px]">
           <img
-            src=""
+            src="IMAGE src/poupa pura.jpg"
             alt=""
             className={`w-full h-full object-cover transition-transform duration-700 ${
               scrollY > 0 ? "scale-105" : "scale-100"
