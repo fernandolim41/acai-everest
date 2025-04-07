@@ -1,8 +1,5 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
-import React, { useState } from 'react';
-import React, { useState, useEffect } from 'react';
-
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt">
       <body className={inter.className}>{children}</body>
     </html>
   )
