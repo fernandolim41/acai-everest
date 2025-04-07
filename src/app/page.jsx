@@ -180,7 +180,7 @@ function MainComponent() {
         <section className="relative h-[500px]">
           <img
             src="/acai-wholesale.jpg"
-            alt="Açaí em grande quantidade para distribuição"
+          
             className={`w-full h-full object-cover transition-transform duration-700 ${
               scrollY > 0 ? "scale-105" : "scale-100"
             }`}
